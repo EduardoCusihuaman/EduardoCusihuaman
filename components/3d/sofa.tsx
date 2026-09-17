@@ -446,7 +446,7 @@ function WearMarks() {
 }
 
 export function WallArt() {
-  const basePath = process.env.NODE_ENV === "production" ? "/LuisCusihuaman" : ""
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? ""
   const [cabifyTexture, fiubaTexture, geopagosTexture, insiteTexture] = useTexture([
     `${basePath}/work-logos/logo-cabify.webp`,
     `${basePath}/work-logos/logo-fiuba.webp`,
