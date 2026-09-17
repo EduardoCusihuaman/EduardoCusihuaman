@@ -149,7 +149,7 @@ export function PortfolioScene() {
       {/* GitHub Link */}
       {!isLocked && (
         <a
-          href="https://github.com/LuisCusihuaman"
+          href="https://github.com/EduardoCusihuaman"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-4 left-16 z-20 p-2 bg-neutral-900/80 backdrop-blur-sm rounded-lg border border-neutral-800 hover:bg-neutral-800 transition-colors flex items-center justify-center"
